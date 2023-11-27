@@ -68,3 +68,37 @@
 .andrew{
   padding: 2em 0;
 }
+.color{
+  background-color: #f6f6f6;
+  padding: 2em 2em;
+  border-radius: 1em;
+  margin: 1em 0;
+}
+.color2{
+  background-color: #f6f6f6;
+  padding: 3em 0;
+  margin-top: 4em;
+}
+.linktag{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.logoBox{
+  width: 40%;
+  margin: 0 auto;
+}
+.resources{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.blog{
+  text-decoration: none;
+  color:black;
+}
+.lastpart{
+  text-align: center;
+}
