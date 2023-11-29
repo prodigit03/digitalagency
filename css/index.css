@@ -15,20 +15,67 @@
   padding-top: 2em;
   padding-bottom: 4em;
 }
+@media (min-width:1024px) {
+  .topCon{
+    align-items: center;
+  }
+}
+.mobile{
+  display: none;
+}
+.desktop{
+  display: block;
+}
+@media (min-width:1024px) {
+  .flex1{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+  }
+  .widthBox{
+  width: 55%;
+  }
+  .mobile{
+    display: block;
+  }
+  .desktop{
+    display: none;
+  }
+}
+
 .header {
   font-size: 2.2em;
   font-weight: 700;
   text-align: center;
   padding-bottom: 0.5em;
 }
+@media (min-width:1024px) {
+  .header{
+    text-align: left;
+    font-size: 3em;
+  }
+  
+}
 .agency {
   text-align: center;
   font-size: 14px;
   padding-bottom: 1em;
 }
+@media (min-width:1024px) {
+  .agency{
+    text-align: left;
+    font-size: 18px;
+  }
+}
 .contact {
   text-align: center;
   padding: 0.8em 0;
+}
+@media (min-width:1024px) {
+  .contact{
+    text-align: left;
+  }
 }
 .contactus {
   text-decoration: none;
@@ -41,6 +88,11 @@
 }
 .image1 {
   padding: 3em 0;
+}
+@media (min-width:1024px) {
+  .image1{
+    /* border: 2px solid green; */
+  }
 }
 .trusted {
   font-size: 12px;
@@ -55,6 +107,24 @@
   border-radius: 0.6em;
   margin-bottom: 3em;
 }
+@media (min-width:1024px) {
+  .logo{
+    width: 60%;
+    margin: 0 auto;
+    gap: 5em;
+  }
+  .flex2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 5em;
+    align-items: center;
+  }
+  .branding{
+    width: 50%;
+    
+  }
+}
 .center {
   padding: 2em 0;
   text-align: center;
@@ -65,14 +135,45 @@
 .second {
   padding-top: 5em;
 }
+@media (min-width:1024px) {
+  .second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .third{
+    text-align: center;
+  }
+  .fourth{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .desktopflexBox{
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .andrew{
   padding: 2em 0;
+}
+@media (min-width:1024px) {
+  .andrew{
+    width: 32%;
+  }
 }
 .color{
   background-color: #f6f6f6;
   padding: 2em 2em;
   border-radius: 1em;
   margin: 1em 0;
+}
+@media (min-width:1024px) {
+  .color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 .color2{
   background-color: #f6f6f6;
@@ -90,6 +191,11 @@
   width: 40%;
   margin: 0 auto;
 }
+@media (min-width:1024px) {
+  .logoBox{
+    width: 60%;
+  }
+}
 .resources{
   text-decoration: none;
   color: black;
@@ -101,4 +207,15 @@
 }
 .lastpart{
   text-align: center;
+}
+@media (min-width:1024px) {
+  .flexdesktopCon{
+    display: flex;
+    justify-content: space-between;
+  }
+  .home{
+    text-decoration: none;
+    color: black;
+    padding: 0 1em;
+  }
 }
